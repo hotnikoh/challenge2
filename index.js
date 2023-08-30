@@ -166,14 +166,15 @@ console.log("===BILANGAN GANJIL ATAU GENAP===");
 let num5 = 8;
 
 function evens(num5){
-    if (num5 %2 == 0){
+    if (num5 %2 === 0){
     console.log(num5 + " => Bilangan Genap");
 }
 else {
     console.log(" => Bilangan ganjil");
 }
 }
-console.log(evens(num5))
+// console.log(evens(num5))
+evens(num5)
 
 // //Random
 
