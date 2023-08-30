@@ -218,7 +218,13 @@ console.log("=====CHALLENGE NO 4=====")
 console.log("=====VOWELS=====")
 
 function vowels(letter){
-    let vows = letter.toLowerCase();
-    return vows === "a" || vows === "i"  || vows === "u"  || vows === "e" || vows === "o"
+    if (letter === "a" || letter === "i"  || letter === "u"  || letter === "e" || letter === "o"){
+        console.log("Vocal");
+    }
+    else {
+        console.log("Consonant");
+    }
 }
-console.log(vowels(B))
+let letter = "e";
+console.log(vowels(letter))
+console.log("=====FINISH=====")
