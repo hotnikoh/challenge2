@@ -39,6 +39,10 @@
 // const result = calculator(operation, num1, num2);
 // console.log(`Hasil: ${result}`);
 
+
+// SAMPLE 2
+
+
 let input1 = 10
 let input2 = 5
 let operation = "/"
