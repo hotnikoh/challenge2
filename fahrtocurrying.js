@@ -9,4 +9,3 @@ function celciusTofahrenheit(celcius){
 let celcius = 20;
 let convrtCelcFahr = celciusTofahrenheit(celcius);
 console.log(convrtCelcFahr())
-
